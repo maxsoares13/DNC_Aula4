@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadstro de Medicamentos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <form id="form_">
+            <div>
+                <ul>
+                    <li>Home</li>
+                    <li>Cadastro de Medicamentos</li>
+                    <li>Cadatro de Vacinas</li>
+                    <li>Cosmeticos</li>
+                </ul>
+            </div>
+        </form>    
+    </header>
+    <form id="form_2">
+        <div id="logo">
+            <img id="logo" src="logo.svg" alt="">
+        </div>
+        <div>
+            <h1>Cadasto de Medicamentos</h1>
+            <h4>Farmacia da Gente</h4>
+        </div>
+    </form>
+    <section id="form_3">
+        <div>
+            <form onsubmit="addmed()">
+                <label for="medicamento"> Nome do Medicamento *</label>
+                <input autocomplete="off" type="text" required id="medicamento">
+
+                <label for="quantidade"> Quantidade Dísponivel *</label>
+                <input autocomplete="off" type="text" required id="quantidade">
+
+                <label for="petName"> Preço por Unidade *</label>
+                <input autocomplete="off" type="text" required id="petName">
+
+                <label for="petName"> classe de medicamento *</label>
+                <input autocomplete="off" type="text" required id="petName">
+
+                <button class="button" type="submit" >Cadastrar</button>
+            </form>
+        </div>
+        
+    </section>
+
+
+</body>
+</html>

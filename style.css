@@ -1,0 +1,52 @@
+body{
+    
+}
+
+
+.cabecalho{
+    display: grid;
+    grid-auto-flow: column;
+    background: #76BEBE;
+    min-width: 100vh; 
+}
+
+#form_ ul{
+    list-style: none;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#form_2 div {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#form_3{
+    background-color: cornflowerblue;
+}
+
+
+#form_3 form{
+    display: grid;
+    grid-auto-flow: row;
+    text-align: center;
+    
+}
+
+#form_3 form input{
+    box-sizing: border-box;
+    border: none;
+    max-width: 467px;
+
+    height: 54px;
+    background: rgba(255, 255, 255, 0.57);
+    border-radius: 10px;
+    padding: 0px; 
+}
+
+
+
+
+
+
+
